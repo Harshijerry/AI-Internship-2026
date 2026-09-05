@@ -1,0 +1,16 @@
+:: Create the file with header
+echo Date,Category,Amount,Description,Payment_Method > expenses.csv
+
+:: Add sample expenses (one by one)
+echo 2026-09-01,Food & Dining,350.0,Breakfast,UPI >> expenses.csv
+echo 2026-09-01,Transportation,50.0,Auto fare,Cash >> expenses.csv
+echo 2026-09-02,Shopping,2500.0,Groceries,Debit Card >> expenses.csv
+echo 2026-09-02,Bills & Utilities,1500.0,Electricity,Net Banking >> expenses.csv
+echo 2026-09-03,Entertainment,800.0,Netflix,Credit Card >> expenses.csv
+echo 2026-09-03,Food & Dining,200.0,Snacks,Cash >> expenses.csv
+echo 2026-09-04,Healthcare,500.0,Medicine,UPI >> expenses.csv
+echo 2026-09-04,Transportation,120.0,Petrol,Cash >> expenses.csv
+echo 2026-09-05,Food & Dining,450.0,Lunch,UPI >> expenses.csv
+echo 2026-09-05,Transportation,100.0,Bus fare,Cash >> expenses.csv
+echo 2026-09-05,Shopping,1200.0,New shoes,Debit Card >> expenses.csv
+echo 2026-09-05,Entertainment,500.0,Movie,Credit Card >> expenses.csv
