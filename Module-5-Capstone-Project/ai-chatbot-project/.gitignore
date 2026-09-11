@@ -1,0 +1,22 @@
+# Environment variables - NEVER commit!
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Chat history
+chat_history_*.txt
+conversation_history.txt
